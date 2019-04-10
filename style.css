@@ -11,12 +11,19 @@ body {
 
 header, nav, section, aside, footer {
     background: #ebebeb;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav {
+    margin-bottom: 0;
 }
 
 article {
     color: #ebebeb;
     background: #777;
-    margin: 5%;
+    padding: 10px;
+    margin: 10px;
 }
 
 h1, p {
@@ -24,27 +31,24 @@ h1, p {
     background: #ebebeb;
 }
 
+p {
+    margin: 10px;
+}
+
+section, aside {
+    float: left;
+    height: 220px;
+}
+
 section {
     width: 495px;
-    background: #ebebeb;
-}
-
-#containTop {
     overflow: auto;
 }
 
-#mainBox {
-    float: left;
-    margin: 2% 2% 2% 0;
-    width: 48%;
+aside {
+    width: 395px;
     overflow: auto;
-}
-
-#sidebar {
-    float: left;
-    margin: 2% 0 2% 2%;
-    width: 48%;
-    overflow: auto;
+    margin: 10px 0;
 }
 
 .clear {
